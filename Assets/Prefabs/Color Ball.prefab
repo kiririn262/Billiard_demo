@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3189755818964424506}
   - component: {fileID: 5014206394389643456}
   - component: {fileID: 3930579986677026176}
+  - component: {fileID: 8320930691859829199}
+  - component: {fileID: 7377826051002237156}
   m_Layer: 0
   m_Name: Color Ball
   m_TagString: Untagged
@@ -89,9 +91,37 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6712466155314244071}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e7196aa4068fd034eba01f93f087537e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8320930691859829199
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712466155314244071}
+  serializedVersion: 2
+  m_Mass: 0.2
+  m_Drag: 0.2
+  m_AngularDrag: 0.2
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
+--- !u!114 &7377826051002237156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712466155314244071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0c9cfd9b011d345a5d15c8112c9105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
