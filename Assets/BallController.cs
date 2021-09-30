@@ -90,7 +90,8 @@ public class BallController : MonoBehaviour
                     Vector3 def = mousePosition - upPosition;
                     Vector3 add = new Vector3(def.x, 0, def.y);
 
-                    mainRigid.AddForce(add * power);
+                    //mainRigid.AddForce(add * power);
+                    mainRigid.AddForce(add * power, ForceMode.Impulse);
 
                     arrow.gameObject.SetActive(false);
 
